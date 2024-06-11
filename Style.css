@@ -1,0 +1,38 @@
+
+.container{
+    width: 1000px;
+}
+
+.grid{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #8a2be2;
+    border: 15px solid #611da0;
+}
+
+div{
+    font-size: 40px;
+    text-align: center;
+}
+
+.valid, .bomb{
+    width: 60px;
+    height: 60px;
+    border: 10px solid;
+    border-color: #ac2df2 #751ea5 #751ea5 #ac2df2 ;
+    box-sizing: border-box;
+}
+
+.checked{
+    width: 60px;
+    height: 60px;
+    border: 10px solid #611da0;
+    box-sizing: border-box;
+
+}
+
+.one, .two , .three, .four{
+    color: aqua;
+}

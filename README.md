@@ -21,6 +21,6 @@ For Contributing:
 
 
 ## Acknowledgements:
-Code with Ania Kabow - for guidance and thw tutorial video on this.  {Link: https://www.youtube.com/watch?v=jS7iB9mRvcc&t=2800s&ab_channel=CodewithAniaKub%C3%B3w}
-OpenAl - for the GPT model
-MDN Web Docs - for their comprehensive documentation
+- Code with Ania Kabow - for guidance and thw tutorial video on this.  {Link: https://www.youtube.com/watch?v=jS7iB9mRvcc&t=2800s&ab_channel=CodewithAniaKub%C3%B3w}
+- OpenAl - for the GPT model
+- MDN Web Docs - for their comprehensive documentation

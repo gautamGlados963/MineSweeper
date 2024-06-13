@@ -1,38 +1,68 @@
-
-.container{
-    width: 1000px;
+body {
+  background: #be7b72;
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "EDPT" 100, "EHLT" 12;
 }
 
-.grid{
-    width: 600px;
-    height: 600px;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #8a2be2;
-    border: 15px solid #611da0;
+.game-title {
+  text-align: center;
+  font-size: 50px;
+  height: auto;
 }
 
-div{
-    font-size: 40px;
-    text-align: center;
+.container {
+  margin: auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.valid, .bomb{
-    width: 60px;
-    height: 60px;
-    border: 10px solid;
-    border-color: #ac2df2 #751ea5 #751ea5 #ac2df2 ;
-    box-sizing: border-box;
+.grid {
+  width: 600px;
+  min-width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #8a2be2;
+  border: 15px solid #401f71;
+  align-items: center;
+  justify-content: center;
 }
 
-.checked{
-    width: 60px;
-    height: 60px;
-    border: 10px solid #611da0;
-    box-sizing: border-box;
-
+div {
+  font-size: 40px;
+  text-align: center;
+  display: flex;
 }
 
-.one, .two , .three, .four{
-    color: aqua;
+.valid,
+.bomb {
+  width: 60px;
+  height: 60px;
+  border: 10px solid;
+  border-color: #ac2df2 #751ea5 #751ea5 #ac2df2;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
 }
+
+.checked {
+  width: 60px;
+  height: 60px;
+  border: 10px solid #611da0;
+  box-sizing: border-box;
+}
+
+.one,
+.two,
+.three,
+.four {
+  color: aqua;
+}
+
